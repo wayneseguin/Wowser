@@ -20,7 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Magra.CefDriver" Version="1.0.1" />
+    <PackageReference Include="Magra.CefDriver" Version="1.0.2" />
     <PackageReference Include="CefSharp.Common.NETCore" Version="136.1.40" />
     <PackageReference Include="CefSharp.WinForms.NETCore" Version="136.1.40" />
     <PackageReference Include="Serilog" Version="4.2.0" />
