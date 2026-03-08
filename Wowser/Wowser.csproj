@@ -4,6 +4,7 @@
     <TargetFramework>net10.0-windows7.0</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <Platforms>x64;AnyCpu</Platforms>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <Nullable>disable</Nullable>
     <Optimize>true</Optimize>
   </PropertyGroup>
@@ -20,6 +21,8 @@
 
   <ItemGroup>
     <PackageReference Include="Magra.CefDriver" Version="1.0.0" />
+    <PackageReference Include="CefSharp.Common.NETCore" Version="136.1.40" />
+    <PackageReference Include="CefSharp.WinForms.NETCore" Version="136.1.40" />
     <PackageReference Include="Serilog" Version="4.2.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
