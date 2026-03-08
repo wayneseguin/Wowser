@@ -7,6 +7,7 @@
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <Nullable>disable</Nullable>
     <Optimize>true</Optimize>
+    <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Platform)'=='AnyCpu'">
