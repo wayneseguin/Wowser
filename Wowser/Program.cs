@@ -19,8 +19,9 @@ namespace Wowser
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            var url = args.Length > 0 ? args[0] : "https://www.google.com";
-            Application.Run(new MainForm(url, logger));
+            var url = args.Length > 0 ? args[0] : "about:blank";
+            var form = new MainForm(url, logger) { BlockImages = false };
+            Application.Run(form);
         }
     }
 }
